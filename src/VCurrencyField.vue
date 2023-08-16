@@ -20,6 +20,7 @@ import defaults from './options';
 
 export default {
   name: 'VCurrencyField',
+  inheritAttrs: false,
   props: {
     value: {
       type: [Number, String],
